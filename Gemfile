@@ -54,7 +54,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'slim'
-gem 'komponent'
+gem 'komponent', github: 'komposable/komponent', branch: 'master'
 gem 'hub'
 gem 'dotenv-rails'
 gem 'mailjet'

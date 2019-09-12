@@ -8,6 +8,8 @@ Bundler.require(*Rails.groups)
 
 module GenerationTest
   class Application < Rails::Application
+    config.i18n.load_path += Dir[config.root.join('frontend/components/**/*.yml')]
+    config.autoload_paths << config.root.join('frontend/components')
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 

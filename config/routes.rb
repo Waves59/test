@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Komponent::Engine => '/' if Rails.env.development?
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   localized do
     root to: 'pages#index', as: 'index'
