@@ -1,0 +1,5 @@
+# Scout APM configuration
+SCOUT_KEY=
+SCOUT_MONITOR=false
+SCOUT_DEV_TRACE=true
+SCOUT_NAME="MyWebsite"
